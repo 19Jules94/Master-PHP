@@ -22,6 +22,25 @@ body {
     float: none;
 }
 
+.alerta{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+.alerta-error{
+    background: red;
+       
+}
+
+.fecha{
+    color: #4e4e4e;
+    margin-top: 5px;
+    font-size: 14px;
+}
 /* Cabecera */
 #cabecera {
     width: 85%;
@@ -142,7 +161,7 @@ input[type="password"]{
 }
 
 input[type="button"],
-input[type="submit"]{
+input[type="submit"],.boton{
     padding: 5px;
     margin-bottom: 5px;
     border-radius: 2px;
@@ -154,6 +173,35 @@ input[type="submit"]{
     cursor: pointer;
     padding: 6px;
   
+    
+}
+
+.boton{
+    width: 130px;
+    text-align: center;
+    
+}
+
+.boton-naranja{
+    background: #ff9933;
+    width: 130px;
+    text-align: center;
+    border-color: sienna;
+    
+}
+
+.boton-verde{
+    background: #3be8b0;
+    width: 130px;
+    text-align: center;
+    border-color: seagreen;
+    
+}
+.boton-rojo{
+    background: #e04646;
+    width: 130px;
+    text-align: center;
+    border-color: tomato;
     
 }
 /* Principal*/
@@ -224,4 +272,6 @@ input[type="submit"]{
     text-align: center;
     
 }
+
+
 
